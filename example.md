@@ -1,0 +1,49 @@
+NML Example
+============
+
+```xml
+<things>
+  <parameters>
+    <experiment name="lsfm_131209_002"/>
+    <scale x="200.0" y="200.0" z="200.0"/>
+    <offset x="0" y="0" z="0"/>
+    <time ms="1397554584305"/>
+    <activeNode id="17"/>
+    <editPosition x="3701" y="1380" z="576"/>
+  </parameters>
+  <thing id="1" color.r="1.0" color.g="0.0" color.b="0.0" color.a="1.0" name="Tree001">
+    <nodes>
+      <node 
+        id="1" radius="2000.0" x="3832" y="1323" z="544" inVp="0" inMag="5" bitDepth="4" interpolation="true" time="1395509116831">
+      </node>
+      <node 
+        id="2" radius="2000.0" x="4470" y="1543" z="512" inVp="0" inMag="5" bitDepth="4" interpolation="true" time="1395509117764">
+      </node>
+      <node 
+        id="3" radius="2000.0" x="3802" y="1261" z="512" inVp="0" inMag="5" bitDepth="4" interpolation="true" time="1395509121027">
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2"/>
+      <edge source="2" target="3"/>
+    </edges>
+  </thing>
+  <thing id="3" color.r="1.0" color.g="0.0" color.b="0.8745098114013672" color.a="1.0" name="Tree003">
+    <nodes>
+      <node 
+        id="15" radius="2000.0" x="4182" y="963" z="576" inVp="0" inMag="5" bitDepth="4" interpolation="true" time="1395509170166">
+      </node>
+    </nodes>
+    <edges>
+    </edges>
+  </thing>
+  <branchpoints>
+    <branchpoint id="1"/>
+    <branchpoint id="15"/>
+  </branchpoints>
+  <comments>
+    <comment node="15" content=":D"/>
+  </comments>
+</things>
+
+```
