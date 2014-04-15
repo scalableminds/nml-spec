@@ -11,6 +11,12 @@ be used as a base for discussion.
 ## Current version
 1.0.0
 
+## Credits
+Based on the file format used in [Knossos](http://www.knossostool.org/):  
+> Helmstaedter, M., K.L. Briggman, and W. Denk,  
+> High-accuracy neurite reconstruction for high-throughput neuroanatomy.  
+> [Nat. Neurosci. 14, 1081–1088, 2011](http://www.nature.com/neuro/journal/v14/n8/full/nn.2868.html).
+
 ## License
-The MIT License (MIT)
+The MIT License (MIT)  
 Copyright (c) 2014 scalable minds UG (haftungsbeschränkt) & Co. KG
