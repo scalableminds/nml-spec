@@ -1,8 +1,7 @@
-NML Example
-============
-
-```xml
-<things>
+<things
+  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation = "https://github.com/scalableminds/nml-spec/raw/1.0.0/nml-spec.xsd"
+>
   <parameters>
     <experiment name="lsfm_131209_002"/>
     <scale x="200.0" y="200.0" z="200.0"/>
@@ -45,5 +44,3 @@ NML Example
     <comment node="15" content=":D"/>
   </comments>
 </things>
-
-```
